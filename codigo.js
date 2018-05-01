@@ -8,8 +8,8 @@ function Init() { //Função inicial
 		this.informacoes = function() {
 			document.body.innerHTML += "Youtuber: ".bold() + this.youtuber + "<br>";
 			document.body.innerHTML += "Conteúdo: ".bold() + this.conteudo + "<br>";
-			document.body.innerHTML += "Ele tem " + this.subscritores.bold() + " subscritores" + "<br>";
-			document.body.innerHTML += "Ele faz " + this.videosSemanais.bold() + " vídeos por dia" + "<br><br>";
+			document.body.innerHTML += "Subscritores: ".bold() + this.subscritores + "<br>";
+			document.body.innerHTML += "Videos Por Semana: ".bold() + this.videosSemanais + "<br><br>";
 		}
 	}
       
